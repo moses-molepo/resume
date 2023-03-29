@@ -1,42 +1,43 @@
  /* The animation code */
-@keyframes animatedSquare {
-  0%   {background-color: black;}
-  25%  {background-color: aqua;}
-  50%  {background-color: antiquewhite;}
-  100% {background-color: white;}
-}
-
-/* The element to apply the animation to */
-div {
-  width: 350px;
-  height: 350px;
-  background-color: red;
-  animation-name: animatedSquare;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+ @keyframes animatedSquare {
+    0%   {background-color: black;}
+    25%  {background-color: aqua;}
+    50%  {background-color: antiquewhite;}
+    100% {background-color: white;}
+  }
   
-} 
-
-div:hover{
-  transform: scale(1.1);
-}
-
-* {
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
-
-}
-
-.wrapper{
-  display: flex;
-  justify-content: center;
-}
-
+  /* The element to apply the animation to */
+  div {
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  } 
   
-
-img{
-  width: 350px;
-  height: 350px
-
-}
+  div:hover{
+    transform: scale(1.1);
+  }
+  
+  * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+  
+  }
+  
+  .wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  
+    
+  
+  img{
+    width: 350px;
+    height: 350px
+  
+  }
+  
