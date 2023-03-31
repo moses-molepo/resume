@@ -1,0 +1,47 @@
+ /* The animation code */
+ @keyframes animatedSquare {
+    0%   {background-color: black;}
+    25%  {background-color: aqua;}
+    50%  {background-color: antiquewhite;}
+    100% {background-color: white;}
+  }
+  
+  /* The element to apply the animation to */
+  .wrapper,.image{
+    width: 350px;
+    height: 350px;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  } 
+  
+  .wrapper,.image   :hover{
+    transform: scale(1.1);
+  }
+  
+  * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+  
+  }
+   
+img{
+    width: 350px;
+    height: 350px;
+    margin-right: 30px;
+  
+  }
+
+  .hero-image{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), url("")
+     ;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+ }
+ 
+  
