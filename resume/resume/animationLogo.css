@@ -24,24 +24,13 @@
        margin: 0px;
        padding: 0px;
        box-sizing: border-box;
-  
+       
   }
    
 img{
     width: 350px;
     height: 350px;
-    margin-right: 30px;
+    margin-right: 10px;
   
   }
 
-  .hero-image{
-    background-image: linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)), url("")
-     ;
-    background-position: center;
-    background-repeat: no-repeat;
- 
- }
- 
-  
