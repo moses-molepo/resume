@@ -42,7 +42,7 @@ h1 {
     ; 
   }
 
-  picture{max-width: 880px;
+  picture{min-width: 900px;
    border-radius: 350px;
    border-style: solid;
    border-width: 30px black;
